@@ -10,6 +10,7 @@ int main(){
     decmap[2]="two";
     for (auto i:decmap) cout<<i.first<<" "<<i.second<<endl;
     //拷贝
-    map<int,string>mp1=mp;
+    map<int,string>mp1(mp);
+
 
 }
